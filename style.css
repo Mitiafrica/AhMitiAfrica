@@ -20,3 +20,13 @@ nav a {
     margin: 15px;
     font-size: 18px;
 }
+section {
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: green;
+}
