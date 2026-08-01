@@ -69,4 +69,28 @@
 </footer>
 
 </body>
+    <script>
+
+const search = document.getElementById("plantSearch");
+const plants = document.querySelectorAll(".plant-card");
+
+search.addEventListener("keyup", function(){
+
+    let value = search.value.toLowerCase();
+
+    plants.forEach(function(plant){
+
+        let text = plant.innerText.toLowerCase();
+
+        if(text.includes(value)){
+            plant.style.display = "block";
+        } else {
+            plant.style.display = "none";
+        }
+
+    });
+
+});
+
+    </script>
 </html>
