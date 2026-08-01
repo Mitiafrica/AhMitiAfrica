@@ -160,3 +160,19 @@ nav a {
     margin: 15px;
     font-size: 18px;
 }
+.research {
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.research img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.research h2 {
+    color: green;
+    }
