@@ -176,3 +176,14 @@ nav a {
 .research h2 {
     color: green;
     }
+.contact {
+    background-color: #f2fff2;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contact h2 {
+    color: green;
+}
