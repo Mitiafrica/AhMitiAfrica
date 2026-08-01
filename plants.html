@@ -30,15 +30,15 @@
     <input type="text" id="plantSearch" placeholder="Search plants...">
 
 </div>
-    <section class="categories">
+  <section class="categories">
 
-    <h2>🌿 Plant Categories</h2>
+<h2>🌿 Plant Categories</h2>
 
-    <button>Medicinal Plants</button>
-    <button>Trees</button>
-    <button>Herbs</button>
-    <button>Food Plants</button>
-
+<button onclick="showPlants('all')">All</button>
+<button onclick="showPlants('medicinal')">Medicinal Plants</button>
+<button onclick="showPlants('tree')">Trees</button>
+<button onclick="showPlants('herb')">Herbs</button>
+  
     </section>
 <section class="featured-plants">
 
@@ -108,4 +108,24 @@ search.addEventListener("keyup", function(){
 });
 
     </script>
+
+   <script>
+
+function showPlants(category){
+
+    let plants = document.querySelectorAll(".plant-card");
+
+    plants.forEach(function(plant){
+
+        if(category == "all" || plant.classList.contains(category)){
+            plant.style.display = "block";
+        } else {
+            plant.style.display = "none";
+        }
+
+    });
+
+}
+
+</script> 
 </html>
