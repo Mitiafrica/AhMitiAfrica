@@ -203,3 +203,35 @@ nav a {
 .contact p {
     font-size: 18px;
 }
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    header img {
+        width: 120px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .plant-card {
+        width: 90%;
+    }
+
+    .about,
+    .mission,
+    .contact,
+    .research {
+        margin: 15px;
+        padding: 20px;
+    }
+
+}
