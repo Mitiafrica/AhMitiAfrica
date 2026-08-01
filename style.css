@@ -30,3 +30,21 @@ section {
 section h2 {
     color: green;
 }
+.plants {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.plant-card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.plant-card h3 {
+    color: green;
+}
