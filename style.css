@@ -65,3 +65,13 @@ section h2 {
 .about h2 {
     color: green;
 }
+.about {
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.about h2 {
+    color: green;
+}
