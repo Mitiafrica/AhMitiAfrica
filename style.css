@@ -266,3 +266,8 @@ nav a {
     border-radius: 8px;
     font-size: 16px;
 }
+.about img {
+    width: 300px;
+    max-width: 90%;
+    border-radius: 10px;
+}
