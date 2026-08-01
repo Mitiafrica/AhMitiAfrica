@@ -128,3 +128,12 @@ footer h3 {
 footer p {
     margin: 5px 0;
 }
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
