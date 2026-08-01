@@ -75,13 +75,14 @@ section h2 {
 .about h2 {
     color: green;
 }
-.about {
-    background-color: white;
-    padding: 30px;
-    margin: 30px;
-    border-radius: 10px;
-}
+<section class="mission">
 
-.about h2 {
-    color: green;
-}
+    <div>
+        <h2>🎯 Our Mission</h2>
+        <p>
+            Kutoa elimu kuhusu mimea ya Afrika, kusaidia utafiti wa tiba asilia,
+            na kuunganisha maarifa ya jadi na sayansi kwa manufaa ya jamii.
+        </p>
+    </div>
+
+</section>
