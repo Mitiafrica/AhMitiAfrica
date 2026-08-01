@@ -86,3 +86,30 @@ section h2 {
     </div>
 
 </section>
+.featured-plants {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-plants h2 {
+    color: green;
+    margin-bottom: 30px;
+}
+
+.plant-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 350px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.plant-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.plant-card h3 {
+    color: green;
+}
