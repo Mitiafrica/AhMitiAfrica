@@ -125,6 +125,18 @@ section h2 {
 .plant-card h3 {
     color: green;
 }
+        
+        
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+} 
 footer {
     background-color: #0b5d1e;
     color: white;
@@ -139,16 +151,6 @@ footer h3 {
 
 footer p {
     margin: 5px 0;
-}
-header {
-    background-color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-header img {
-    width: 150px;
-    height: auto;
 } 
 
 nav {
