@@ -246,34 +246,48 @@ nav a {
 }
 .search-box {
     text-align: center;
-    margin: 30px;
+    margin: 30px auto;
+    padding: 20px;
 }
 
 .search-box input {
     width: 80%;
-    max-width: 400px;
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid green;
+    max-width: 450px;
+    padding: 14px;
     font-size: 18px;
+    border: 2px solid #0b5d1e;
+    border-radius: 10px;
+    outline: none;
+}
+
+.search-box input:focus {
+    box-shadow: 0 0 8px rgba(11,93,30,0.4);
 }
 .categories {
     text-align: center;
-    margin: 30px;
+    margin: 30px auto;
+    padding: 20px;
 }
 
 .categories h2 {
-    color: green;
+    color: #0b5d1e;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .categories button {
-    background-color: green;
+    background-color: #0b5d1e;
     color: white;
     border: none;
-    padding: 12px 20px;
+    padding: 12px 22px;
     margin: 8px;
     border-radius: 8px;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.categories button:hover {
+    background-color: #15803d;
 }
 .about img {
     width: 300px;
@@ -387,3 +401,24 @@ nav a {
     font-size: 18px;
     line-height: 1.7;
     }
+@media (max-width: 600px) {
+
+    .featured-plants {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plant-card {
+        width: 90%;
+    }
+
+    .categories button {
+        width: 90%;
+        margin: 8px auto;
+    }
+
+    .search-box input {
+        width: 90%;
+    }
+
+}
