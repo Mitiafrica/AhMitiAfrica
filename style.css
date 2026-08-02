@@ -144,7 +144,7 @@ header {
 }
 
 header img {
-    width: 150px;
+    width: 90px;
     height: auto;
 } 
 footer {
@@ -220,7 +220,7 @@ nav a {
     }
 
     header img {
-        width: 120px;
+        width: 90px;
     }
 
     .hero h1 {
