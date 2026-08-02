@@ -281,7 +281,11 @@ nav a {
     padding: 60px 20px;
     background: #e8f5e9;
 }
-
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e8f5e9;
+        }
 .hero-logo {
     width: 180px;
     margin-bottom: 20px;
