@@ -139,6 +139,7 @@ footer p {
     margin: 5px 0;
 }
 header {
+    background-color: white;
     text-align: center;
     padding: 20px;
 }
@@ -146,17 +147,7 @@ header {
 header img {
     width: 150px;
     height: auto;
-}
-header {
-    background-color: white;
-    text-align: center;
-    padding: 15px;
-}
-
-header img {
-    width: 160px;
-    height: auto;
-}
+} 
 
 nav {
     background-color: green;
