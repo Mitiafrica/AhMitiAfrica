@@ -517,3 +517,35 @@ nav a {
     text-decoration: none;
     border-radius: 8px;
 }
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #0b5d1e;
+    border-radius: 8px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form button {
+    background-color: #0b5d1e;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #15803d;
+}
