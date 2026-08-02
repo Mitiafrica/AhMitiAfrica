@@ -1,8 +1,10 @@
 body {
-    background-color: #f2fff2;
+    body {
+    margin: 0;
+    padding: 0;
+    background: #f5fff5;
     font-family: Arial, sans-serif;
-    text-align: center;
-}
+{
 
 h1 {
     color: green;
