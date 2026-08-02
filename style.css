@@ -177,20 +177,23 @@ nav a {
 }
 .research {
     background-color: white;
-    padding: 30px;
-    margin: 30px;
+    padding: 40px 25px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 12px;
     text-align: center;
-    border-radius: 10px;
-}
-
-.research img {
-    width: 120px;
-    border-radius: 50%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 .research h2 {
-    color: green;
-    }
+    color: #0b5d1e;
+    font-size: 32px;
+}
+
+.research p {
+    font-size: 18px;
+    line-height: 1.7;
+}
 .contact {
     background-color: #f2fff2;
     padding: 30px;
