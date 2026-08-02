@@ -105,12 +105,12 @@ section h2 {
     gap: 25px;
     padding: 40px 20px;
 }
-
 .featured-plants h2 {
     width: 100%;
     text-align: center;
     color: #0b5d1e;
     font-size: 32px;
+    margin-bottom: 30px;
 }
 }
 
@@ -194,35 +194,26 @@ nav a {
     font-size: 18px;
     line-height: 1.7;
 }
-.contact {
-    background-color: #f2fff2;
-    padding: 30px;
-    margin: 30px;
-    text-align: center;
-    border-radius: 10px;
-}
 
-.contact h2 {
-    color: green;
-}
 .contact {
     background-color: white;
-    padding: 35px;
-    margin: 30px;
-    text-align: center;
+    padding: 40px 25px;
+    margin: 30px auto;
+    max-width: 900px;
     border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 .contact h2 {
-    color: green;
-    font-size: 30px;
+    color: #0b5d1e;
+    font-size: 32px;
 }
 
 .contact p {
     font-size: 18px;
+    line-height: 1.7;
 }
-@media (max-width: 600px) {
-
     nav a {
         display: block;
         margin: 10px;
