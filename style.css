@@ -549,3 +549,23 @@ nav a {
 .contact-form button:hover {
     background-color: #15803d;
 }
+.btn,
+button {
+    display: inline-block;
+    background-color: #0b5d1e;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover,
+button:hover {
+    background-color: #15803d;
+    transform: translateY(-2px);
+}
