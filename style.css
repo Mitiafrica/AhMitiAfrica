@@ -342,3 +342,22 @@ nav a {
 .stat-box p {
     font-size: 18px;
 }
+.about {
+    background-color: white;
+    padding: 40px 25px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.about h2 {
+    color: #0b5d1e;
+    font-size: 32px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.7;
+}
