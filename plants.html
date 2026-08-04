@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plants - Miti Africa</title>
 
-    <link rel="stylesheet" href="style.css">
+    <title>Plants - MitiAfrica</title>
+
     <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <img src="images/docteur.png" alt="Miti Africa Logo">
+    <img src="images/docteur.png" alt="MitiAfrica Logo">
 </header>
 
 <nav>
@@ -25,87 +27,136 @@
 
 <section class="hero">
     <h1>🌿 African Medicinal Plants</h1>
-    <p>Explore medicinal plants, their scientific names, uses and research.</p>
+
+    <p>
+        Explore African medicinal plants, their scientific names,
+        traditional uses and Islamic resources, research findings and safety information.
+    </p>
 </section>
-<div class="search-box">
 
-    <input type="text" id="plantSearch" placeholder="Search plants...">
+<section class="search-box">
 
-</div>
-  <section class="categories">
+    <input
+        type="text"
+        id="plantSearch"
+        placeholder="Search medicinal plants...">
 
-<h2>🌿 Plant Categories</h2>
+</section>
 
-<button onclick="showPlants('all')">All</button>
-<button onclick="showPlants('medicinal')">Medicinal Plants</button>
-<button onclick="showPlants('tree')">Trees</button>
-<button onclick="showPlants('herb')">Herbs</button>
-  
-    </section>
+<section class="categories">
+
+    <h2>Plant Categories</h2>
+
+    <button>Trees</button>
+    <button>Herbs</button>
+    <button>Shrubs</button>
+    <button>Roots</button>
+    <button>Seeds</button>
+
+</section>
 <section class="featured-plants">
 
-<div class="plant-card Medicinal">
-    <img src="images/moringa.jpg" alt="Moringa">
+    <h2>Medicinal Plants</h2>
 
-    <h3>Moringa oleifera</h3>
+    <div class="plant-card">
+        <img src="images/carapa.jpg" alt="Carapa procera">
+        <h3>Carapa procera</h3>
+        <p>
+            An African medicinal tree traditionally used for skin care
+            and many other natural remedies.
+        </p>
+        <a href="carapa-procera.html" class="btn">Read More</a>
+    </div>
 
-    <p><strong>Common Name:</strong> Moringa</p>
+    <div class="plant-card">
+        <img src="images/moringa.jpg" alt="Moringa oleifera">
+        <h3>Moringa oleifera</h3>
+        <p>
+            Known as the miracle tree because of its exceptional
+            nutritional and medicinal value.
+        </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
 
-    <p><strong>Family:</strong> Moringaceae</p>
+    <div class="plant-card">
+        <img src="images/neem.jpg" alt="Neem">
+        <h3>Azadirachta indica (Neem)</h3>
+        <p>
+            A famous medicinal plant widely used for hygiene,
+            skin care and traditional healing.
+        </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
 
-    <p><strong>Origin:</strong> Burundi Africa & South Asia</p>
+    <div class="plant-card">
+        <img src="images/prunus.jpg" alt="Prunus africana">
+        <h3>Prunus africana</h3>
+        <p>
+            A valuable African medicinal tree that has attracted
+            scientific research around the world.
+        </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+    
+    <div class="plant-card">
+    <img src="images/cloves.jpg" alt="Cloves">
+    <h3>Syzygium aromaticum (Cloves)</h3>
+    <p>
+        Cloves are aromatic flower buds traditionally used as a spice and in herbal medicine.
+    </p>
+    <a href="cloves.html" class="btn">Read More</a>
+    </div>
 
-    <p><strong>Uses:</strong> Traditionally used as a nutritious plant and widely studied in scientific research.</p>
+    <div class="plant-card">
+        <img src="images/hibiscus.jpg" alt="Hibiscus sabdariffa">
+        <h3>Hibiscus sabdariffa</h3>
+        <p>
+            Traditionally prepared as a refreshing herbal drink
+            and widely appreciated in Africa.
+        </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
 
-    <a href="moringa.html">Read More</a>
-</div>
-
-<div class="plant-card herb">
-    <img src="images/aloe-vera.jpg" alt="Aloe Vera">
-    <h3>Aloe vera</h3>
-    <p>Commonly used for skin care and traditional herbal applications.</p>
-</div>
-
-<div class="plant-card tree">
-    <img src="images/neem.jpg" alt="Neem">
-    <h3>Azadirachta indica</h3>
-    <p>Widely valued in agriculture and traditional herbal knowledge.</p>
-</div>
-   <div class="plant-card tree">
-
-    <h3>Carapa procera</h3>
-
-    <p>Mswati / Gobi</p>
-
-    <p>African plant research and traditional knowledge.</p>
-
-    <a href="carapa-procera.html">Read More</a>
-
-   </div> 
+    <div class="plant-card">
+        <img src="images/aloe-vera.jpg" alt="Aloe vera">
+        <h3>Aloe vera</h3>
+        <p>
+            A succulent plant well known for skin care
+            and traditional herbal applications.
+        </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
 
 </section>
-
 <footer>
-    <h3>Miti Africa</h3>
-    <p>Research • African Plants • Islamic Knowledge</p>
-    <p>&copy; 2026 Miti Africa. All Rights Reserved.</p>
+
+    <h3>MitiAfrica</h3>
+
+    <p>
+        Preserving African medicinal knowledge through science,
+        research and education.
+    </p>
+
+    <p>
+        © 2026 MitiAfrica. All Rights Reserved.
+    </p>
+
 </footer>
 
-</body>
-    <script>
+<script>
 
 const search = document.getElementById("plantSearch");
 const plants = document.querySelectorAll(".plant-card");
 
-search.addEventListener("keyup", function(){
+search.addEventListener("keyup", function () {
 
     let value = search.value.toLowerCase();
 
-    plants.forEach(function(plant){
+    plants.forEach(function (plant) {
 
         let text = plant.innerText.toLowerCase();
 
-        if(text.includes(value)){
+        if (text.includes(value)) {
             plant.style.display = "block";
         } else {
             plant.style.display = "none";
@@ -115,66 +166,7 @@ search.addEventListener("keyup", function(){
 
 });
 
-    </script>
+</script>
 
-   <script>
-
-function showPlants(category){
-
-    let plants = document.querySelectorAll(".plant-card");
-
-    plants.forEach(function(plant){
-
-        if(category == "all" || plant.classList.contains(category)){
-            plant.style.display = "block";
-        } else {
-            plant.style.display = "none";
-        }
-
-    });
-
-}
-
-</script> 
-    .featured-plants {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 30px;
-}
-
-.plant-card {
-    width: 280px;
-    background: white;
-    border-radius: 12px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.plant-card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.plant-card h3 {
-    color: #0b5d1e;
-}
-
-.plant-card a {
-    display: inline-block;
-    margin-top: 10px;
-    background: green;
-    color: white;
-    padding: 10px 18px;
-    text-decoration: none;
-    border-radius: 6px;
-}
-
-.plant-card a:hover {
-    background: darkgreen;
-}
+</body>
 </html>
