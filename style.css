@@ -299,6 +299,25 @@ section h2 {
 .stat-card p {
     font-size: 18px;
 }
+.contact form {
+    max-width: 700px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #0b5d1e;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.contact textarea {
+    resize: vertical;
+}
 /* =========================
    FOOTER
 ========================= */
