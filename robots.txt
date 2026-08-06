@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ahmitiafrica.github.io/MitiAfrica/sitemap.xml
+Sitemap: https://mitiafrica.github.io/ahmitiafrica/sitemap.xml
